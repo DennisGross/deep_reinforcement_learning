@@ -191,7 +191,7 @@ class Agent():
 
 
 if __name__ == '__main__':
-    environment_name = "MountainCar-v0" # or: Acrobot-v1, CartPole-v1, MountainCar-v0, and Pendulum-v0
+    environment_name = "CartPole-v1" # or: Acrobot-v1, CartPole-v1, MountainCar-v0, and Pendulum-v0
     env = gym.make(environment_name)
     n_games = 10000
     agent = Agent(gamma=0.99, epsilon=1.0, lr=0.001, epsilon_dec=0.99997, epsilon_end=0.01,
