@@ -1,4 +1,5 @@
 """
+Author: Dennis Gross
 This agent can be used to solve discretized control problems from open ai gym.
 This script is based on the research paper 'Playing Atari with Deep Reinforcement Learning'
 Link: https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
